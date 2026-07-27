@@ -1,0 +1,18 @@
+conda activate feedback_generator
+streamlit run app.py
+
+Local URL: http://localhost:8501
+Network URL: http://192.168.1.6:8501
+
+-----
+#NotImplementedError: Cannot copy out of meta tensor; no data!
+conda activate feedback_generator
+pip uninstall -y whisper openai-whisper torch torchvision torchaudio
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+conda install -c conda-forge ffmpeg
+pip install --upgrade pip setuptools wheel typing_extensions
+pip install openai-whisper
+rm -rf ~/.cache/whisper
+python -c "import whisper; model = whisper.load_model('base'); print('Whisper loaded successfully')"
+streamlit run app.py
+-----

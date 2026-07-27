@@ -1,0 +1,10 @@
+I created a homepage for my website. It includes a title and short introduction. 
+I also added a navigation menu.
+
+I created an About page that explains the website purpose.
+
+I added CSS styles for background color, font size, and spacing.
+
+I did not complete the contact page fully. I only added a contact heading.
+
+The website is partially responsive, but some sections are not properly adjusted for mobile screens.
