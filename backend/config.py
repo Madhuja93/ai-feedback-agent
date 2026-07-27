@@ -5,7 +5,7 @@ load_dotenv()
 
 
 class Settings:
-    OPENAI_API_KEY = os.getenv("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")
+    OPENAI_API_KEY = os.getenv("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")
     OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
     # Keep text small to avoid rate limit errors

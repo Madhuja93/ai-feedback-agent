@@ -1,9 +1,13 @@
+streamlit
 openai
 python-dotenv
 pydantic
 PyMuPDF
 python-docx
-streamlit
-reportlab
-python-docx
 pypdf
+reportlab
+transformers
+openai-whisper
+torch
+sentencepiece
+accelerate
