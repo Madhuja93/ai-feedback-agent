@@ -3,7 +3,7 @@ python-dotenv
 pydantic
 PyMuPDF
 python-docx
-streamlit
+streamlit=1.45.1
 reportlab
 python-docx
 pypdf
