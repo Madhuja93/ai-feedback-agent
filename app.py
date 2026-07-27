@@ -1570,7 +1570,7 @@ def main():
 
     if not video_backend_ready:
         st.markdown(
-            '<div class="glass-alert glass-alert-error"><span class="glass-alert-icon">✗</span> Video transcription backend is missing. Please check that <code>backend/transcriber.py</code>, <code>backend/summarizer.py</code>, and <code>backend/utils.py</code> exist.</div>',
+            '<div class="glass-alert glass-alert-error"><span class="glass-alert-icon">✗</span> Video transcription aborted.Instance failed: 4rsrmRan out of memory (used over 512MB) while running your code.',
             unsafe_allow_html=True
         )
 
